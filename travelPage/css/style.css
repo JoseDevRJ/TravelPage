@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Montserrat:ital,wght@0,100;0,200;1,100;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+*{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        
+      }
+      ::-webkit-scrollbar {
+        width: 0px;
+    }
+
+      nav{
+          font-size: 1rem;
+          font-weight: 300;
+          font-family: 'Roboto', sans-serif;
+      }
+
+      .footer {
+        box-shadow: rgba(0, 0, 0, 0.80) 0px 3px 8px;
+        display: flex;
+        justify-content: flex-end;
+      }
+
+
+      .logo-footer{
+        height: 30px;
+        margin-left: 5px;
+      }
+      
+      .carousel-caption > h5 {
+        font-size: 2rem;
+      }
+
+      .card-coutry{
+        padding: 5px;
+        box-shadow: rgba(0, 0, 0, 0.80) 0px 3px 8px;
+      }
+      .section-cards{
+          display: flex;
+          justify-content: space-between;
+          padding: 10px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 300;
+          
+          
+      }
+      .carousel-item  img {
+        height: 100vh; 
+      }
+
+      .logo > a > img {
+          height: 80px;
+          margin-right: 15px;
+      }
+
+      .aprentacao{
+          font-size: 1.5rem;
+      }
